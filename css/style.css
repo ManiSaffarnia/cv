@@ -1,0 +1,166 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  width: 1140px;
+  position: relative;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5rem;
+  font-family: 'Great Vibes', cursive;
+  margin: 50px auto 0;
+  line-height: 2;
+  /* font-family: 'Kaushan Script', cursive; */
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top: 6px dotted #d8e4e4;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: white;
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottom-container a{
+  color: #118f94;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.bottom-container a:hover{
+  color: #EAF6F6;
+}
+
+.bottom-container p{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.top-cloud, .bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  top: 0;
+  right: 200px;
+}
+
+.bottom-cloud {
+  top: 240px;
+  left: 200px
+}
+
+.header-sub-title {
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 0;
+}
+
+.skill-picture-top {
+  width: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-picture-bottom {
+  width: 150px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills p, .skills h3 {
+  text-align: left;
+}
+
+
+.btn{
+  display: inline-block;
+  background-color: #08b1b7;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 150px;
+  margin: 20px auto 0;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-image: linear-gradient(to bottom, #11cdd4, #0b7b80);
+}
+
+.middle-container h2{
+  font-size: 2rem;
+  margin-bottom: 35px;
+}
+
+.get-in-touch-subtitle{
+  margin-bottom: 50px;
+}
+
+.profile-picture{
+  width: 200px;
+}
+
+.bio{
+  width: 30%;
+  margin: 0 auto;
+}
